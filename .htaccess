@@ -61,7 +61,6 @@
 
     php_flag zend.ze1_compatibility_mode Off
 
-
 </IfModule>
 
 <IfModule mod_security.c>
@@ -121,7 +120,7 @@
 ## you can put here your magento root folder
 ## path relative to web root
 
-    #RewriteBase /~pacsafe/
+    #RewriteBase /magento/
 
 ############################################
 ## uncomment next line to enable light API calls processing
